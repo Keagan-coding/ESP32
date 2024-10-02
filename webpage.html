@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 Web Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="webpage.css">
+</head>
+<body>
+  <h1>ESP32 Web Server</h1>
+  <p>LED State: <strong id="ledState">Loading...</strong></p>
+  <p>
+    <p>This is the tits !!</p>
+    <button class="button" onclick="ToggleLED('on')">ON</button>
+    <button class="button button2" onclick="ToggleLED('off')">OFF</button>
+  </p>
+  <select id="ColorDropdown"></select>
+  <button id="sendColorButton">Send Color</button>
+</body>
+<script type="text/javascript" src="/webpage.js"></script>
+</html>

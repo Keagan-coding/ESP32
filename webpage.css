@@ -1,0 +1,42 @@
+/* body { 
+    background-image: url("pool.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    } */
+h1  { 
+    color: white; 
+    }
+
+p, pre  { 
+    font-size: 18px; 
+    color: purple;
+    }
+
+.button { 
+    background-color: #198754;
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    }
+.button2 { background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    }
+.button:hover, .button2:hover { 
+    opacity: 0.8; 
+}
